@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.taoxwizard" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo" version="1.0.0" provider-name="[COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR]">
 	<extension point="xbmc.addon.repository" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo">
-        	<info>https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/addons.xml.md5</checksum>
-        	<datadir zip="true">https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/</datadir>
+        	<info>https://github.com/taoxtrece/repository.taoxwizard/raw/master/addons.xml</info>
+			<checksum>https://github.com/taoxtrece/repository.taoxwizard/raw/master/addons.xml.md5</checksum>
+        	<datadir zip="true">https://github.com/taoxtrece/repository.taoxwizard/raw/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo</summary>
