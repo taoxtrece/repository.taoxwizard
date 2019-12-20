@@ -16,7 +16,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="resource.taoxwizardtool" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Mantenimiento" version="1.1" provider-name="[COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR]">
+<addon id="resource.taoxwizardtool" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Mantenimiento" version="1.2" provider-name="[COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
