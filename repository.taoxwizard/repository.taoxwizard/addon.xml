@@ -2,12 +2,14 @@
 <addon id="repository.taoxwizard" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo" version="1.0.0" provider-name="[COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR]">
 	<extension point="xbmc.addon.repository" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo">
         	<info>https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/addons.xml.md5</checksum>
-        	<datadir zip="true">https://github.com/taoxtrece/repository.taoxwizard/raw/master/</datadir>
+		<checksum>https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/addons.xml.md5</checksum>
+        	<datadir zip="true">https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/repository.taoxwizard/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo</summary>
-		<description>Repository for Taox Wizard Add-ons</description>
+    <summary lang="en">[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo</summary>
+    <description lang="en">Repository for [COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Add-ons</description>
+    <summary lang="es_ES">[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo</summary>
+    <description lang="es_ES">Repositorio para los Add-ons de [COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR]</description>
 		<platform>all</platform>
 		<assets>
 			<icon>icon.png</icon>
