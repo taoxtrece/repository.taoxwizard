@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="resource.uisounds.salta" version="1.0.0" name="SALTA UI Sounds" provider-name="[COLOR purple]Taox Trece[/COLOR] - [COLOR teal]Salnes Sound[/COLOR]">
+<requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+ </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">SALTA UI Sounds</summary>
+    <description lang="en">SALTA UI Sounds. Original sounds produced by Salnes Sound https://open.spotify.com/artist/194NsKXJpJGmjOqIowtoha</description>
+    <summary lang="es_es">SALTA UI Sounds</summary>
+    <description lang="es_es">SALTA UI Sounds. Sonidos originales producidos por Salnes Sound https://open.spotify.com/artist/194NsKXJpJGmjOqIowtoha</description>
+    <platform>all</platform>
+  </extension>
+</addon>
