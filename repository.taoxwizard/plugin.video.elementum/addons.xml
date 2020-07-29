@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.58" provider-name="elgatito">
+    <requires>
+        <import addon="xbmc.addon" version="16.0.0" />
+        <import addon="repository.elementum" optional="true" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="navigation.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+    <extension point="xbmc.python.module" library="resources/site-packages" />
+    <extension point="xbmc.subtitle.module" library="navigation.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Elementum: Media streaming</summary>
+        <summary lang="hr">Elementum: Medijsko strujanje</summary>
+        <summary lang="es">Elementum: Transmisión de medios</summary>
+        <description lang="en">Elementum is a torrent finding and streaming engine. It doesn't go on torrent websites for legal reasons. However, it calls specially crafted add-ons (called providers) that are installed separately.[CR]This project is a fork of the well known, but no longer maintained Pulsar/Quasar projects from steeve and scakemyer.</description>
+        <description lang="hr">Elementum je pogon pretraživanja i strujanja. Ne posjećuje torrent web stranice iz pravnih razloga. Ipak, koristi posebno napravljene dodatke (nazvane pružatelji usluge) koji su instalirani odvojeno.[CR]Ovaj projekt je ogranak dobro poznatih, ali više ne održavanih Pulsar/Quasar projekata od autora steevea i scakemyera.</description>
+        <description lang="es">Elementum es un motor de búsqueda y transmisión torrent. No navega por sitios web torrent por razones legales. Sin embargo, llama a complementos especialmente diseñados para ello (denominados providers o proveedores) que se instalan por separado.[CR]Este proyecto es un fork de los bien conocidos, pero ya sin soporte proyectos Pulsar/Quasar de steeve y scakemyer.[CR]</description>
+        <disclaimer lang="en">The author does not own or host any content found within this Addon. The author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+        <disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa ili na bilo koji drugi način bilo sa Kodijem, Team Kodijem ili XBMC fundacijom.</disclaimer>
+        <disclaimer lang="es">El autor no posee ni aloja ningún contenido que se encuentre a través de este complemento. El autor no está unido ni relacionado de ninguna manera con Kodi, Team Kodi, o XBMC Foundation.</disclaimer>
+        <language>en el es de fi fr he hr it nl pt ro sk</language>
+        <platform>android-armv7</platform>
+        <website>http://elementum.surge.sh/</website>
+        <source>https://github.com/elgatito/plugin.video.elementum</source>
+        <forum></forum>
+        <license>Non commercial. See https://github.com/elgatito/plugin.video.elementum/blob/master/LICENSE</license>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+            <screenshot>resources/screenshots/home.png</screenshot>
+            <screenshot>resources/screenshots/movies.png</screenshot>
+            <screenshot>resources/screenshots/webui.png</screenshot>
+        </assets>
+    </extension>
+</addon>
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.58" provider-name="elgatito">
+    <requires>
+        <import addon="xbmc.addon" version="16.0.0" />
+        <import addon="repository.elementum" optional="true" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="navigation.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+    <extension point="xbmc.python.module" library="resources/site-packages" />
+    <extension point="xbmc.subtitle.module" library="navigation.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Elementum: Media streaming</summary>
+        <summary lang="hr">Elementum: Medijsko strujanje</summary>
+        <summary lang="es">Elementum: Transmisión de medios</summary>
+        <description lang="en">Elementum is a torrent finding and streaming engine. It doesn't go on torrent websites for legal reasons. However, it calls specially crafted add-ons (called providers) that are installed separately.[CR]This project is a fork of the well known, but no longer maintained Pulsar/Quasar projects from steeve and scakemyer.</description>
+        <description lang="hr">Elementum je pogon pretraživanja i strujanja. Ne posjećuje torrent web stranice iz pravnih razloga. Ipak, koristi posebno napravljene dodatke (nazvane pružatelji usluge) koji su instalirani odvojeno.[CR]Ovaj projekt je ogranak dobro poznatih, ali više ne održavanih Pulsar/Quasar projekata od autora steevea i scakemyera.</description>
+        <description lang="es">Elementum es un motor de búsqueda y transmisión torrent. No navega por sitios web torrent por razones legales. Sin embargo, llama a complementos especialmente diseñados para ello (denominados providers o proveedores) que se instalan por separado.[CR]Este proyecto es un fork de los bien conocidos, pero ya sin soporte proyectos Pulsar/Quasar de steeve y scakemyer.[CR]</description>
+        <disclaimer lang="en">The author does not own or host any content found within this Addon. The author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+        <disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa ili na bilo koji drugi način bilo sa Kodijem, Team Kodijem ili XBMC fundacijom.</disclaimer>
+        <disclaimer lang="es">El autor no posee ni aloja ningún contenido que se encuentre a través de este complemento. El autor no está unido ni relacionado de ninguna manera con Kodi, Team Kodi, o XBMC Foundation.</disclaimer>
+        <language>en el es de fi fr he hr it nl pt ro sk</language>
+        <platform>android-aarch64</platform>
+        <website>http://elementum.surge.sh/</website>
+        <source>https://github.com/elgatito/plugin.video.elementum</source>
+        <forum></forum>
+        <license>Non commercial. See https://github.com/elgatito/plugin.video.elementum/blob/master/LICENSE</license>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+            <screenshot>resources/screenshots/home.png</screenshot>
+            <screenshot>resources/screenshots/movies.png</screenshot>
+            <screenshot>resources/screenshots/webui.png</screenshot>
+        </assets>
+    </extension>
+</addon>
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.58" provider-name="elgatito">
+    <requires>
+        <import addon="xbmc.addon" version="16.0.0" />
+        <import addon="repository.elementum" optional="true" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="navigation.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+    <extension point="xbmc.python.module" library="resources/site-packages" />
+    <extension point="xbmc.subtitle.module" library="navigation.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Elementum: Media streaming</summary>
+        <summary lang="hr">Elementum: Medijsko strujanje</summary>
+        <summary lang="es">Elementum: Transmisión de medios</summary>
+        <description lang="en">Elementum is a torrent finding and streaming engine. It doesn't go on torrent websites for legal reasons. However, it calls specially crafted add-ons (called providers) that are installed separately.[CR]This project is a fork of the well known, but no longer maintained Pulsar/Quasar projects from steeve and scakemyer.</description>
+        <description lang="hr">Elementum je pogon pretraživanja i strujanja. Ne posjećuje torrent web stranice iz pravnih razloga. Ipak, koristi posebno napravljene dodatke (nazvane pružatelji usluge) koji su instalirani odvojeno.[CR]Ovaj projekt je ogranak dobro poznatih, ali više ne održavanih Pulsar/Quasar projekata od autora steevea i scakemyera.</description>
+        <description lang="es">Elementum es un motor de búsqueda y transmisión torrent. No navega por sitios web torrent por razones legales. Sin embargo, llama a complementos especialmente diseñados para ello (denominados providers o proveedores) que se instalan por separado.[CR]Este proyecto es un fork de los bien conocidos, pero ya sin soporte proyectos Pulsar/Quasar de steeve y scakemyer.[CR]</description>
+        <disclaimer lang="en">The author does not own or host any content found within this Addon. The author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+        <disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa ili na bilo koji drugi način bilo sa Kodijem, Team Kodijem ili XBMC fundacijom.</disclaimer>
+        <disclaimer lang="es">El autor no posee ni aloja ningún contenido que se encuentre a través de este complemento. El autor no está unido ni relacionado de ninguna manera con Kodi, Team Kodi, o XBMC Foundation.</disclaimer>
+        <language>en el es de fi fr he hr it nl pt ro sk</language>
+        <platform>windows-x86_64</platform>
+        <website>http://elementum.surge.sh/</website>
+        <source>https://github.com/elgatito/plugin.video.elementum</source>
+        <forum></forum>
+        <license>Non commercial. See https://github.com/elgatito/plugin.video.elementum/blob/master/LICENSE</license>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+            <screenshot>resources/screenshots/home.png</screenshot>
+            <screenshot>resources/screenshots/movies.png</screenshot>
+            <screenshot>resources/screenshots/webui.png</screenshot>
+        </assets>
+    </extension>
+</addon>
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.58" provider-name="elgatito">
+    <requires>
+        <import addon="xbmc.addon" version="16.0.0" />
+        <import addon="repository.elementum" optional="true" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="navigation.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+    <extension point="xbmc.python.module" library="resources/site-packages" />
+    <extension point="xbmc.subtitle.module" library="navigation.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Elementum: Media streaming</summary>
+        <summary lang="hr">Elementum: Medijsko strujanje</summary>
+        <summary lang="es">Elementum: Transmisión de medios</summary>
+        <description lang="en">Elementum is a torrent finding and streaming engine. It doesn't go on torrent websites for legal reasons. However, it calls specially crafted add-ons (called providers) that are installed separately.[CR]This project is a fork of the well known, but no longer maintained Pulsar/Quasar projects from steeve and scakemyer.</description>
+        <description lang="hr">Elementum je pogon pretraživanja i strujanja. Ne posjećuje torrent web stranice iz pravnih razloga. Ipak, koristi posebno napravljene dodatke (nazvane pružatelji usluge) koji su instalirani odvojeno.[CR]Ovaj projekt je ogranak dobro poznatih, ali više ne održavanih Pulsar/Quasar projekata od autora steevea i scakemyera.</description>
+        <description lang="es">Elementum es un motor de búsqueda y transmisión torrent. No navega por sitios web torrent por razones legales. Sin embargo, llama a complementos especialmente diseñados para ello (denominados providers o proveedores) que se instalan por separado.[CR]Este proyecto es un fork de los bien conocidos, pero ya sin soporte proyectos Pulsar/Quasar de steeve y scakemyer.[CR]</description>
+        <disclaimer lang="en">The author does not own or host any content found within this Addon. The author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
+        <disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa ili na bilo koji drugi način bilo sa Kodijem, Team Kodijem ili XBMC fundacijom.</disclaimer>
+        <disclaimer lang="es">El autor no posee ni aloja ningún contenido que se encuentre a través de este complemento. El autor no está unido ni relacionado de ninguna manera con Kodi, Team Kodi, o XBMC Foundation.</disclaimer>
+        <language>en el es de fi fr he hr it nl pt ro sk</language>
+        <platform>osx64</platform>
+        <website>http://elementum.surge.sh/</website>
+        <source>https://github.com/elgatito/plugin.video.elementum</source>
+        <forum></forum>
+        <license>Non commercial. See https://github.com/elgatito/plugin.video.elementum/blob/master/LICENSE</license>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+            <screenshot>resources/screenshots/home.png</screenshot>
+            <screenshot>resources/screenshots/movies.png</screenshot>
+            <screenshot>resources/screenshots/webui.png</screenshot>
+        </assets>
+    </extension>
+</addon>
+<addon id="resource.uisounds.salta" version="1.0.0" name="SALTA UI Sounds" provider-name="[COLOR purple]Taox Trece[/COLOR] - [COLOR teal]Salnes Sound[/COLOR]">
+<requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+ </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">SALTA UI Sounds</summary>
+    <description lang="en">SALTA UI Sounds. Original sounds produced by Salnes Sound https://open.spotify.com/artist/194NsKXJpJGmjOqIowtoha</description>
+    <summary lang="es_es">SALTA UI Sounds</summary>
+    <description lang="es_es">SALTA UI Sounds. Sonidos originales producidos por Salnes Sound https://open.spotify.com/artist/194NsKXJpJGmjOqIowtoha</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="resource.uisounds.atvsi" version="1.0.0" name="ATV Sounds Integration" provider-name="[COLOR teal]Taox [COLOR purple]Trece[/COLOR]">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">ATV Sounds Integration</summary>
+    <description lang="en">ATV Sounds Integration</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.program.taoxwizard" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR]" version="2.3.9" provider-name="[COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup"/>
+	<extension point="xbmc.addon.repository" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo">
+        	<info>https://github.com/taoxtrece/repository.taoxwizard/raw/master/addons.xml</info>
+			<checksum>https://github.com/taoxtrece/repository.taoxwizard/raw/master/addons.xml.md5</checksum>
+        	<datadir zip="true">https://github.com/taoxtrece/repository.taoxwizard/raw/master/</datadir>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Taox Wizard</summary>
+    <description lang="en">Kodi Builds by Taox Trece.</description>
+    <summary lang="es_ES">Taox Wizard</summary>
+    <description lang="es_ES">Instalador de builds para Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="resource.taoxwizardtool" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Mantenimiento" version="1.2" provider-name="[COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+	<extension point="xbmc.addon.repository" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo">
+        	<info>https://github.com/taoxtrece/repository.taoxwizard/raw/master/addons.xml</info>
+			<checksum>https://github.com/taoxtrece/repository.taoxwizard/raw/master/addons.xml.md5</checksum>
+        	<datadir zip="true">https://github.com/taoxtrece/repository.taoxwizard/raw/master/</datadir>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Taox Wizard Maintenance</summary>
+    <description lang="en">Maintenance for Taox Wizard</description>
+    <summary lang="es_ES">Taox Wizard Mantenimiento</summary>
+    <description lang="es_ES">Mantenimiento para builds de Taox Wizard</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="repository.taoxwizard" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo" version="1.0.0" provider-name="[COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR]">
+	<extension point="xbmc.addon.repository" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo">
+        	<info>https://github.com/taoxtrece/repository.taoxwizard/raw/master/addons.xml</info>
+			<checksum>https://github.com/taoxtrece/repository.taoxwizard/raw/master/addons.xml.md5</checksum>
+        	<datadir zip="true">https://github.com/taoxtrece/repository.taoxwizard/raw/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo</summary>
+		<description>Repository for Taox Wizard Add-ons</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+</addons>
