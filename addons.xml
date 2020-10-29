@@ -1,5 +1,75 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="inputstream.adaptive.testing" name="InputStream Adaptive Testing" provider-name="peak3d" version="2.6.0.4">
+  <requires>
+<import addon="kodi.binary.global.main" version="1.0.14" />
+<import addon="kodi.binary.global.general" version="1.0.3" />
+<import addon="kodi.binary.global.filesystem" version="1.0.2" />
+<import addon="kodi.binary.instance.inputstream" version="2.0.8" />
+<import addon="kodi.binary.instance.videocodec" version="1.0.1" /></requires>
+  <extension extension="" library_android="libinputstream.adaptive.testing.so" listitemprops="license_type|license_key|license_data|license_flags|manifest_type|server_certificate|stream_headers|manifest_update_parameter|original_audio_language|media_renewal_url|media_renewal_time|max_bandwidth|play_timeshift_buffer" name="adaptive" point="kodi.inputstream" tags="true" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">InputStream client for adaptive streams</summary>
+    <summary lang="es_ES">Cliente InputStream para flujo de datos adaptativos</summary>
+    <description lang="en_GB">InputStream client for adaptive streams</description>
+    <description lang="es_ES">Cliente InputStream para flujo de datos adaptativos</description>
+    <platform>android-armv7</platform>
+    <news>[B]Version v2.6.0.4[/B]
+- update leia patch
+- API related change
+- only install android apts when building for android
+</news></extension>
+</addon>
+<addon id="plugin.video.alfa" name="Alfa" version="3.2.7" provider-name="Alfa Addon">
+  <requires>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.beautifulsoup4" version="4.5.3"/>
+    <import addon="script.module.html5lib" version="0.999.0"/>
+    <import addon="script.alfa-update-helper" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Navega con Kodi por páginas web.</summary>
+    <assets>
+      <icon>resources/icono_3.png</icon>
+      <fanart>resources/halloween2020.png</fanart>
+      <screenshot>resources/media/themes/ss/1.jpg</screenshot>
+      <screenshot>resources/media/themes/ss/2.jpg</screenshot>
+      <screenshot>resources/media/themes/ss/3.jpg</screenshot>
+      <screenshot>resources/media/themes/ss/4.jpg</screenshot>
+    </assets>
+      <news>[B]Estos son los cambios para esta versión:[/B]
+
+      [COLOR green][B]Arreglos[/B][/COLOR]
+      ¤ Doramedplay                             ¤ Allcalidad                            ¤ HDfull
+      ¤ Seriespapaya                             ¤ Tvanime                              ¤ Vi2
+      ¤ Watchseries                               ¤ Madeintorrent                   ¤ Magnetpelis
+      ¤ Pctfenix                                      ¤ Pelispanda                          ¤ DosPelis
+      ¤ Seriesflix                                     ¤ 18+
+
+      [COLOR green][B]Novedades[/B][/COLOR]
+      ¤ Uploader123 (server)               ¤ Streamsb (server)              ¤ Uploadever (server)
+      ¤ HDFullS
+      
+      Agradecimientos a @DamianBacalov por su colaboración en esta versión
+
+    </news>
+    <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
+    <summary lang="en">Browse web pages using Kodi</summary>
+    <description lang="en">Browse web pages using Kodi, you can easily watch their video content.</description>
+    <disclaimer>[COLOR red]The owners and submitters to this addon do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.[/COLOR]</disclaimer>
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+    <forum>foro</forum>
+    <website>web</website>
+    <email>my@email.com</email>
+    <source>https://github.com/alfa-addon/addon</source>
+  </extension>
+  <extension point="xbmc.service" library="videolibrary_service.py" start="login|startup">
+  </extension>
+</addon>
 <addon id="plugin.video.alfa" name="Alfa" version="3.2.7" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
@@ -186,10 +256,11 @@ Super Fav - Super Favourites MOD
   </extension>
 
 </addon>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.58.android_arm" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.59.android_arm" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
+        <import addon="script.module.kodi-six" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="navigation.py">
         <provides>video</provides>
@@ -208,7 +279,7 @@ Super Fav - Super Favourites MOD
         <disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa ili na bilo koji drugi način bilo sa Kodijem, Team Kodijem ili XBMC fundacijom.</disclaimer>
         <disclaimer lang="es">El autor no posee ni aloja ningún contenido que se encuentre a través de este complemento. El autor no está unido ni relacionado de ninguna manera con Kodi, Team Kodi, o XBMC Foundation.</disclaimer>
         <language>en el es de fi fr he hr it nl pt ro sk</language>
-        <platform>android-armv7</platform>
+        <platform>all</platform>
         <website>http://elementum.surge.sh/</website>
         <source>https://github.com/elgatito/plugin.video.elementum</source>
         <forum></forum>
@@ -222,10 +293,11 @@ Super Fav - Super Favourites MOD
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.58.android_arm64" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.59.android_arm64" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
+        <import addon="script.module.kodi-six" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="navigation.py">
         <provides>video</provides>
@@ -244,7 +316,7 @@ Super Fav - Super Favourites MOD
         <disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa ili na bilo koji drugi način bilo sa Kodijem, Team Kodijem ili XBMC fundacijom.</disclaimer>
         <disclaimer lang="es">El autor no posee ni aloja ningún contenido que se encuentre a través de este complemento. El autor no está unido ni relacionado de ninguna manera con Kodi, Team Kodi, o XBMC Foundation.</disclaimer>
         <language>en el es de fi fr he hr it nl pt ro sk</language>
-        <platform>android-aarch64</platform>
+        <platform>all</platform>
         <website>http://elementum.surge.sh/</website>
         <source>https://github.com/elgatito/plugin.video.elementum</source>
         <forum></forum>
@@ -258,10 +330,11 @@ Super Fav - Super Favourites MOD
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.58.windows_x64" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.59.windows_x64" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
+        <import addon="script.module.kodi-six" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="navigation.py">
         <provides>video</provides>
@@ -280,7 +353,7 @@ Super Fav - Super Favourites MOD
         <disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa ili na bilo koji drugi način bilo sa Kodijem, Team Kodijem ili XBMC fundacijom.</disclaimer>
         <disclaimer lang="es">El autor no posee ni aloja ningún contenido que se encuentre a través de este complemento. El autor no está unido ni relacionado de ninguna manera con Kodi, Team Kodi, o XBMC Foundation.</disclaimer>
         <language>en el es de fi fr he hr it nl pt ro sk</language>
-        <platform>windows-x86_64</platform>
+        <platform>all</platform>
         <website>http://elementum.surge.sh/</website>
         <source>https://github.com/elgatito/plugin.video.elementum</source>
         <forum></forum>
@@ -294,10 +367,11 @@ Super Fav - Super Favourites MOD
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.58.darwin_x64" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.59.darwin_x64" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
+        <import addon="script.module.kodi-six" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="navigation.py">
         <provides>video</provides>
@@ -316,7 +390,7 @@ Super Fav - Super Favourites MOD
         <disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa ili na bilo koji drugi način bilo sa Kodijem, Team Kodijem ili XBMC fundacijom.</disclaimer>
         <disclaimer lang="es">El autor no posee ni aloja ningún contenido que se encuentre a través de este complemento. El autor no está unido ni relacionado de ninguna manera con Kodi, Team Kodi, o XBMC Foundation.</disclaimer>
         <language>en el es de fi fr he hr it nl pt ro sk</language>
-        <platform>osx64</platform>
+        <platform>all</platform>
         <website>http://elementum.surge.sh/</website>
         <source>https://github.com/elgatito/plugin.video.elementum</source>
         <forum></forum>
@@ -330,10 +404,11 @@ Super Fav - Super Favourites MOD
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.58.linux_armv7" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.59.linux_armv7" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
+        <import addon="script.module.kodi-six" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="navigation.py">
         <provides>video</provides>
@@ -352,7 +427,7 @@ Super Fav - Super Favourites MOD
         <disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa ili na bilo koji drugi način bilo sa Kodijem, Team Kodijem ili XBMC fundacijom.</disclaimer>
         <disclaimer lang="es">El autor no posee ni aloja ningún contenido que se encuentre a través de este complemento. El autor no está unido ni relacionado de ninguna manera con Kodi, Team Kodi, o XBMC Foundation.</disclaimer>
         <language>en el es de fi fr he hr it nl pt ro sk</language>
-        <platform>linux</platform>
+        <platform>all</platform>
         <website>http://elementum.surge.sh/</website>
         <source>https://github.com/elgatito/plugin.video.elementum</source>
         <forum></forum>
