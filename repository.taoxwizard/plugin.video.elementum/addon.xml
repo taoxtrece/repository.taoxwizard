@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.58.android_arm" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.61.android_arm" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
