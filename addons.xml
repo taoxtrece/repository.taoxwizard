@@ -285,7 +285,7 @@ Super Fav - Super Favourites MOD
 		</assets>
 	</extension>
 </addon>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.61.android-armv7" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.62.android-armv7" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
@@ -322,7 +322,7 @@ Super Fav - Super Favourites MOD
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.61.android-aarch64" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.62.android-aarch64" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
@@ -359,7 +359,7 @@ Super Fav - Super Favourites MOD
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.61.osx" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.62.osx" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
@@ -396,7 +396,7 @@ Super Fav - Super Favourites MOD
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.61.linux" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.62.linux" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
@@ -433,7 +433,7 @@ Super Fav - Super Favourites MOD
         </assets>
     </extension>
 </addon>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.61.windows" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.62.windows" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementum" optional="true" />
