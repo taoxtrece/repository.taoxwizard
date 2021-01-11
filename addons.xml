@@ -124,7 +124,7 @@ provider-name="jurialmunkey">
     </extension>
 </addon>
 <addon id="script.skinvariables"
-version="0.2.2"
+version="0.2.4"
 name="Skin Variables"
 provider-name="jurialmunkey">
 <requires>
