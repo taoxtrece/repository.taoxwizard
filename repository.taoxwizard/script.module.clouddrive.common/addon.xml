@@ -9,12 +9,10 @@
 	</requires>
 	<extension point="xbmc.python.module" library="/" />
 	<extension point="xbmc.service" library="service.py" start="login" />
-	<extension point="xbmc.addon.repository" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo">  
-        <dir>
-        	<info>https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/addons.xml.md5</checksum>
-        	<datadir zip="true">https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/repository.taoxwizard/</datadir>
-		</dir>
+	<extension point="xbmc.addon.repository" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo">
+        	<info>https://github.com/taoxtrece/repository.taoxwizard/raw/master/addons.xml</info>
+			<checksum>https://github.com/taoxtrece/repository.taoxwizard/raw/master/addons.xml.md5</checksum>
+        	<datadir zip="true">https://github.com/taoxtrece/repository.taoxwizard/raw/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
