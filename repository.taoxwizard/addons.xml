@@ -15,7 +15,7 @@
 		<summary lang="es_ES">Cloud Drive Common Module</summary>
 		<description lang="es_ES">MOD por [COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR] para [COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR]</description>
 		<license>GPL-3.0-or-later</license>
-		<source>https://github.com/cguZZman/script.module.clouddrive.common</source>
+		<source>https://github.com/taoxtrece/script.module.clouddrive.common</source>
 		<forum>https://github.com/cguZZman/script.module.clouddrive.common/issues</forum>
 		<assets>
 			<icon>icon.png</icon>
@@ -58,7 +58,7 @@ You can clone the project and host it in your own server.
 		<summary lang="es_ES">Google Drive for KODI</summary>
 		<description lang="es_ES">MOD por [COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR] para [COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR]</description>
 		<license>GPL-3.0-or-later</license>
-		<source>https://github.com/cguZZman/plugin.googledrive</source>
+		<source>https://github.com/taoxtrece/plugin.googledrive</source>
 		<forum>https://github.com/cguZZman/plugin.googledrive/issues</forum>
 		<website>https://addons.kodi.tv/show/plugin.googledrive</website>
 		<assets>
