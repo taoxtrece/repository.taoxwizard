@@ -5,7 +5,6 @@
 		<import addon="script.module.dateutil"/>
 		<import addon="script.module.pyqrcode"/>
 		<import addon="plugin.googledrive" version="MOD"/>
-		<import addon="repository.taoxwizard" version="1.0.0"/>
 	</requires>
 	<extension point="xbmc.python.module" library="/" />
 	<extension point="xbmc.service" library="service.py" start="login" />
