@@ -5,7 +5,7 @@
 		<import addon="script.module.dateutil" />
 		<import addon="script.module.pyqrcode" />
 	</requires>
-	<extension library="/" point="xbmc.python.module" />
+    <extension library="lib" point="xbmc.python.module" />
 	<extension library="service.py" point="xbmc.service" start="login" />
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
