@@ -1,5 +1,108 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="script.module.clouddrive.common" name="Cloud Drive Common Module" version="MOD" provider-name="Carlos Guzman (cguZZman) - [COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0" />
+		<import addon="script.module.dateutil"/>
+		<import addon="script.module.pyqrcode"/>
+		<import addon="plugin.googledrive" version="MOD"/>
+		<import addon="repository.taoxwizard" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="/" />
+	<extension point="xbmc.service" library="service.py" start="login" />
+	<extension point="xbmc.addon.repository" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo">  
+        <dir>
+        	<info>https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/addons.xml.md5</checksum>
+        	<datadir zip="true">https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/repository.taoxwizard/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en_GB">Cloud Drive Common Module</summary>
+		<description lang="en_GB">MOD by [COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR] for [COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR]</description>
+		<summary lang="es_ES">Cloud Drive Common Module</summary>
+		<description lang="es_ES">MOD por [COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR] para [COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR]</description>
+		<license>GPL-3.0-or-later</license>
+		<source>https://github.com/cguZZman/script.module.clouddrive.common</source>
+		<forum>https://github.com/cguZZman/script.module.clouddrive.common/issues</forum>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/01.jpg</screenshot>
+			<screenshot>resources/screenshots/02.jpg</screenshot>
+			<screenshot>resources/screenshots/03.jpg</screenshot>
+		</assets>
+		<news>
+MOD release Jan 18, 2021.
+		</news>
+		<disclaimer lang="en_GB">
+This cloud drive addon uses a third-party authentication mechanism commonly known as OAuth 2.0.
+If you want to know more about OAuth 2.0 you can visit the following pages:
+- https://oauth.net/2/
+- https://developers.google.com/identity/protocols/OAuth2
+- https://docs.microsoft.com/en-us/onedrive/developer/rest-api/getting-started/msa-oauth
+
+Kodi and myself take no responsibility or liability whatsoever.
+
+The authentication server URL is specified in Settings / Advanced / Sign-in Server. The Sign-in Server implements the OAuth 2.0 protocol.
+The complete source code of the Sign-in Server can be download here: https://github.com/cguZZman/drive-login
+You can clone the project and host it in your own server. 
+		</disclaimer>
+	</extension>
+</addon>
+<addon id="plugin.googledrive" name="Google Drive" version="MOD" provider-name="Carlos Guzman (cguZZman) - [COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0" />
+		<import addon="script.module.clouddrive.common" version="MOD"/>
+		<import addon="repository.taoxwizard" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>image audio video</provides>
+	</extension>
+	<extension point="xbmc.addon.repository" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo">  
+        <dir>
+        	<info>https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/addons.xml.md5</checksum>
+        	<datadir zip="true">https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/repository.taoxwizard/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="login" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en_GB">Google Drive for KODI</summary>
+		<description lang="en_GB">MOD by [COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR] for [COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR]</description>
+		<summary lang="es_ES">Google Drive for KODI</summary>
+		<description lang="es_ES">MOD por [COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR] para [COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR]</description>
+		<license>GPL-3.0-or-later</license>
+		<source>https://github.com/cguZZman/plugin.googledrive</source>
+		<forum>https://github.com/cguZZman/plugin.googledrive/issues</forum>
+		<website>https://addons.kodi.tv/show/plugin.googledrive</website>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/01.jpg</screenshot>
+			<screenshot>resources/screenshots/02.jpg</screenshot>
+			<screenshot>resources/screenshots/03.jpg</screenshot>
+		</assets>
+		<news>
+MOD release Jan 18, 2021.
+		</news>
+		<disclaimer lang="en_GB">
+This cloud drive addon uses a third-party authentication mechanism commonly known as OAuth 2.0.
+If you want to know more about OAuth 2.0 you can visit the following pages:
+- https://oauth.net/2/
+- https://developers.google.com/identity/protocols/OAuth2
+- https://docs.microsoft.com/en-us/onedrive/developer/rest-api/getting-started/msa-oauth
+
+Kodi and myself take no responsibility or liability.
+
+The authentication server URL is specified in Settings / Advanced / Sign-in Server. The Sign-in Server implements the OAuth 2.0 protocol.
+The complete source code of the Sign-in Server can be download here: https://github.com/cguZZman/drive-login
+You can clone the project and host it in your own server. 
+		</disclaimer>
+	</extension>
+</addon>
 <addon id="plugin.video.themoviedb.helper"
 version="4.2.9"
 name="TheMovieDb Helper"
