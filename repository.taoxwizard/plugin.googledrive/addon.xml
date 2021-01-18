@@ -15,9 +15,9 @@
 		<summary lang="es_ES">Google Drive for KODI</summary>
 		<description lang="es_ES">MOD por [COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR] para [COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR]</description>
 		<license>GPL-3.0-or-later</license>
-		<source>https://github.com/taoxtrece/plugin.googledrive</source>
-		<forum>https://github.com/cguZZman/plugin.googledrive/issues</forum>
-		<website>https://addons.kodi.tv/show/plugin.googledrive</website>
+		<source />
+		<forum />
+		<website />
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
@@ -28,18 +28,5 @@
 		<news>
 MOD release Jan 18, 2021.
 		</news>
-		<disclaimer lang="en_GB">
-This cloud drive addon uses a third-party authentication mechanism commonly known as OAuth 2.0.
-If you want to know more about OAuth 2.0 you can visit the following pages:
-- https://oauth.net/2/
-- https://developers.google.com/identity/protocols/OAuth2
-- https://docs.microsoft.com/en-us/onedrive/developer/rest-api/getting-started/msa-oauth
-
-Kodi and myself take no responsibility or liability.
-
-The authentication server URL is specified in Settings / Advanced / Sign-in Server. The Sign-in Server implements the OAuth 2.0 protocol.
-The complete source code of the Sign-in Server can be download here: https://github.com/cguZZman/drive-login
-You can clone the project and host it in your own server. 
-		</disclaimer>
 	</extension>
 </addon>
