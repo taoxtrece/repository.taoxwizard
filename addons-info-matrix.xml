@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons><addon id="repository.taoxtrece" name="Taox Trece Matrix Repository" version="1.0.0" provider-name="taoxtrece">
+	<extension point="xbmc.addon.repository" name="Taox Trece Matrix Repository">
+        <info>https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/addons-info-matrix.xml</info>
+        <checksum>https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/addons-info-matrix.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/taoxtrece/repository.taoxwizard/master/matrix/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Add-ons from https://github.com/taoxtrece</summary>
+		<description>Taox Trece Matrix Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon></addons>
