@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.program.taoxwizard" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR]" version="2.4.1" provider-name="[COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup"/>
+	<extension point="xbmc.addon.repository" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo">
+        	<info>https://github.com/taoxtrece/repository.taoxwizard/raw/master/addons.xml</info>
+			<checksum>https://github.com/taoxtrece/repository.taoxwizard/raw/master/addons.xml.md5</checksum>
+        	<datadir zip="true">https://github.com/taoxtrece/repository.taoxwizard/raw/master/</datadir>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Taox Wizard</summary>
+    <description lang="en">Kodi Builds by Taox Trece.</description>
+    <summary lang="es_ES">Taox Wizard</summary>
+    <description lang="es_ES">Instalador de builds para Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
 <addon id="plugin.video.alfa" name="Alfa" version="3.3.15" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
@@ -514,27 +535,6 @@ Super Fav - Super Favourites MOD
   <extension point="kodi.addon.metadata">
     <summary lang="en">ATV Sounds Integration</summary>
     <description lang="en">ATV Sounds Integration</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-<addon id="plugin.program.taoxwizard" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR]" version="2.4.1" provider-name="[COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup"/>
-	<extension point="xbmc.addon.repository" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo">
-        	<info>https://github.com/taoxtrece/repository.taoxwizard/raw/master/addons.xml</info>
-			<checksum>https://github.com/taoxtrece/repository.taoxwizard/raw/master/addons.xml.md5</checksum>
-        	<datadir zip="true">https://github.com/taoxtrece/repository.taoxwizard/raw/master/</datadir>
-	</extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Taox Wizard</summary>
-    <description lang="en">Kodi Builds by Taox Trece.</description>
-    <summary lang="es_ES">Taox Wizard</summary>
-    <description lang="es_ES">Instalador de builds para Kodi.</description>
     <platform>all</platform>
   </extension>
 </addon>
