@@ -11,7 +11,7 @@ adult="no"
 description="Kodi builds para Leia, último build actualizado Dark Ocean."
 
 name="Solo VOD"
-version="2021.12.26"
+version="2021.12.28"
 url="https://github.com/taoxtrece/plugin.program.taoxwizard/releases/download/build6/solovod.zip"
 gui="http://"
 kodi="18"
