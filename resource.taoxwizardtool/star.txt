@@ -1,23 +1,37 @@
-name="[COLOR white]*****BUILDS KODI 18*****[/COLOR]"
-version="0.0"
-url="http://"
-gui="http://"
-kodi="18"
-theme="http://"
-icon="https://archive.org/download/xcpon_bitwhites_Icon/fanarttaox.png"
-fanart="https://archive.org/download/xcpon_bitwhites_Icon/fanart.jpg"
-preview="http://"
-adult="no"
-description="Kodi builds para Leia, último build actualizado Dark Ocean."
 
-name="Solo VOD"
-version="2021.12.28"
-url="https://github.com/taoxtrece/plugin.program.taoxwizard/releases/download/build6/solovod.zip"
-gui="http://"
-kodi="18"
-theme="http://"
-icon="https://archive.org/download/xcpon_bitwhites_Icon/darkocean8.png"
-fanart="https://archive.org/download/xcpon_bitwhites_Icon/fanart.jpg"
-buildpreview="https://youtu.be/hmO-OslxOQA"
-adult="Si"
-description="Dark Ocean con la interfaz ampliada e incluye videoteca, Disney+, Luar y Moe's TV."
+#EXTINF:0 group-title="PLUTO",Ana y los 7
+#EXTVLCOPT:network-caching=1000
+
+
+
+#EXTINF:0 tvg-logo="https://image.roku.com/developer_channels/prod/1501b86df311ec17bcc3056e6e1602f2c0c192153332e9325714e14263893c93.png",Runtime
+#EXTVLCOPT:network-caching=1000
+http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/6086d3f420fc8500075f8dbf/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
+#EXTINF:0 tvg-logo="https://imagenes.atresplayer.com/atp/clipping/cmsimages01/2020/02/18/F2C8FE77-D93B-459D-9A68-4A8980323640//295x166.jpg",A3Cine
+#EXTVLCOPT:network-caching=1000
+http://streams.x10.bz/u49f/mp.php/https://live.atresmediainternacional.com/ATRESMEDIA/a3cine-1080.m3u8
+#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/TraceSSLogo.png/1200px-TraceSSLogo.png.png" group-title="REALITY",Trace Sport Stars
+#EXTVLCOPT:network-caching=1000
+https://tracesportstars-samsunges.amagi.tv/playlist.m3u8
+#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Trace_Urban_logo_2010.svg/2560px-Trace_Urban_logo_2010.svg.png" group-title="MUSICA",Trace Urban
+#EXTVLCOPT:network-caching=1000
+https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cosmo_TV_logo.svg/1280px-Cosmo_TV_logo.svg.png",Cosmo
+#EXTVLCOPT:network-caching=1000
+http://154.62.74.12:1935/live/smil:cosmoHD/.m3u8
+
+
+#EXTINF:0 tvg-logo="https://www.padelgalis.com/wp-content/uploads/2020/02/world-padel-tour-pista-oficial-fabricante.png",World Padel Tour
+#EXTVLCOPT:network-caching=1000
+https://laligatech-live-usp.akamaized.net/live/wpt03/wpt03.isml/playlist.m3u8?hdnts=exp=1647181824~acl=*~hmac=763609782438d8ec4fa01b4bf0ebf6dce4a2a2e7bf198fbbdd6837eaae4a5cb7
+
+
+#EXTINF:0 tvg-logo="https://m.media-amazon.com/images/I/61oOVpNLmqL._SL500_.png",Butaca TV
+#EXTVLCOPT:network-caching=1000
+https://veranda-butacatv-1-es.samsung.wurl.tv/playlist.m3u8
+#EXTINF:0 tvg-logo="https://www.cines-verdi.com/logo_verdi.png",Verdi TV Cine
+#EXTVLCOPT:network-caching=1000
+https://contracorriente-canalcinesverdi-1-es.samsung.wurl.tv/playlist.m3u8
+#EXTINF:0 tvg-logo="https://waytel.es/wp-content/uploads/2020/03/4Fun.jpg",World Padel Tour
+#EXTVLCOPT:network-caching=1000
+https://stream.4fun.tv:8888/hls/4f.m3u8
