@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon provider-name="elgatito" name="Elementum" id="plugin.video.elementum" version="0.1.860038">
+<addon id="plugin.video.elementum" provider-name="elgatito" name="Elementum" version="0.1.860038">
   <requires>
     <import addon="xbmc.addon" version="16.0.0"/>
     <import addon="repository.elementum" optional="true"/>
@@ -119,93 +119,6 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="plugin.program.taoxwizard" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR]" version="2.4.1" provider-name="[COLOR teal]Taox[/COLOR] [COLOR purple]Trece[/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	</requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup"/>
-  <extension point="xbmc.addon.repository" name="[COLOR teal]Taox[/COLOR] [COLOR purple]Wizard[/COLOR] Repo">
-        	<info>https://github.com/taoxtrece/repository.taoxwizard/raw/master/addons.xml</info>
-			<checksum>https://github.com/taoxtrece/repository.taoxwizard/raw/master/addons.xml.md5</checksum>
-        	<datadir zip="true">https://github.com/taoxtrece/repository.taoxwizard/raw/master/</datadir>
-	</extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Taox Wizard</summary>
-    <description lang="en">Kodi Builds by Taox Trece.</description>
-    <summary lang="es_ES">Taox Wizard</summary>
-    <description lang="es_ES">Instalador de builds para Kodi.</description>
-    <platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshots/1.jpg</screenshot>
-			<screenshot>resources/screenshots/2.jpg</screenshot>
-			<screenshot>resources/screenshots/3.jpg</screenshot>
-		</assets>
-    <source>https://github.com/taoxtrece/plugin.program.taoxwizard</source>
-  </extension>
-</addon>
-<addon id="plugin.program.super.favourites" name="Super Fav" version="MOD" provider-name="[COLOR grey]Fusion [COLOR white]- [COLOR aqua]Cristal Azul [COLOR white]- [COLOR teal]Taox [COLOR purple]Wizard[/COLOR]">
-  <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-    <import addon="script.module.metahandler" optional="true" />
-  </requires>
-
-
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>audio image executable</provides>
-  </extension>
-
-  
-  <extension point="xbmc.service" library="service.py" start="startup" />
-
-  
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Super Fav. Super Favourites MOD by Fusion, Cristal Azul and Taox Wizard. All credits for the original work from Spoyser</summary>
-    <description lang="en">Super Fav es la mejor manera de administrar sus favoritos de Kodi.Prácticamente cualquier elemento de menú dentro de Kodi se puede agregar a Super Fav, incluso desde complementos que normalmente no ofrecen esta función.
-Super Fav le permite administrar mejor sus favoritos de Kodi, incluida la creación de subcarpetas, en las que sus favoritos de Kodi se pueden copiar o mover.
-Esto le permite crear su propio complemento personalizado con las secciones preferidas de diferentes addons. </description>
-    <platform>all</platform>
-    <language>en</language>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://forum.xbmc.org/showthread.php?tid=192662</forum>
-    <website></website>
-    <source>https://github.com/spoyser/spoyser-repo/tree/master/plugin.program.super.favourites</source>
-    <email>seanpoyser at gmail.com</email>
-
-    <news>
-Super Fav - Super Favourites MOD
-	Por Fusion, Cristal Azul y Taox Wizard.
-    </news>
-
-  </extension>
-
-
-  <extension point="kodi.context.item">
-    <menu id="kodi.core.main">
-
-      <item library="capture.py">
-        <label>$ADDON[plugin.program.super.favourites 30002]</label>
-        <visible>!IsEmpty(Window(Home).Property(SF_STD_CONTEXTMENU_ENABLED)) + !StringCompare(Container.PluginName,plugin.program.super.favourites)</visible>
-      </item>
-
-      <item library="menu_addtofaves.py">
-        <label>$ADDON[plugin.program.super.favourites 30047]</label>
-        <visible>!IsEmpty(Window(Home).Property(SF_STD_ADDTOFAVES_ENABLED)) + !StringCompare(Container.PluginName,plugin.program.super.favourites)</visible>
-      </item>
-
-      <item library="menu_download.py">
-        <label>$ADDON[plugin.program.super.favourites 30259]</label>
-        <visible>!IsEmpty(Window(Home).Property(SF_STD_DOWNLOAD_ENABLED)) + Player.IsInternetStream</visible>
-      </item>
-
-    </menu>
-  </extension>
-
-</addon>
 <addon id="resource.uisounds.salta" version="1.0.0" name="SALTA UI Sounds" provider-name="[COLOR purple]Taox Trece[/COLOR] - [COLOR teal]Salnes Sound[/COLOR]">
 <requires>
     <import addon="kodi.resource" version="1.0.0"/>
@@ -266,5 +179,17 @@ Super Fav - Super Favourites MOD
 			<fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
+</addon>
+<addon id="inputstream.adaptive" version="19.0.3" name="InputStream Adaptive" provider-name="peak3d">
+  <requires>@ADDON_DEPENDS@</requires>
+  <extension point="kodi.inputstream" name="adaptive" extension="" tags="true" listitemprops="license_type|license_key|license_data|license_flags|manifest_type|server_certificate|stream_headers|manifest_update_parameter|original_audio_language|max_bandwidth|play_timeshift_buffer|pre_init_data" library_PLATFORM="@LIBRARY_FILENAME@"></extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>@PLATFORM@</platform>
+    <summary lang="ca_ES">Client InputStream per a transmissions adaptatives</summary>
+    <summary lang="da_DK">InputStream-klient til adaptive streams</summary>
+    <summary lang="de_DE">InputStream-Client für adaptive Streams</summary>
+    <summary lang="en_GB">InputStream client for adaptive streams</summary>
+    <summary lang="es_ES">Cliente InputStream para flujo de datos adaptativos</summary>
+  </extension>
 </addon>
 </addons>
